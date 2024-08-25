@@ -3,12 +3,10 @@
 ## Table of Contents
 
 - [About](#about)
-- [Features](#features)
-- [Installation](#installation)
 - [Technologies](#Technologies)
-- [Contributing](#contributing)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
+- [Installation](#installation)
+- [Features](#features)
+
 
 ## About
 
@@ -31,7 +29,7 @@ In other to start you'd need to install the following packages.
 - SinglestoreDB 
 - python3.8+
 
-### installation
+## installation
 
 SingleStoreDB installation on Linux (Centos)
 
@@ -48,6 +46,7 @@ cd text-summarization-LLM-RAG
 
 # Install the dependencies
 python -m pip install -r requirements.txt
+```
 
 ## Features
 
