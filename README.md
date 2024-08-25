@@ -19,6 +19,7 @@ This is about
 - Sentimental Analysis
 - Text-to-SQL
 - LLM-RAG
+- Responsive Design <Html, javascript, css> 
 
 ## Installation
 
