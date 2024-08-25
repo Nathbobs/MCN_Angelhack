@@ -5,23 +5,24 @@
 - [About](#about)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
+- [Technologies](#Technologies)
 - [Contributing](#contributing)
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
 
 ## About
 
-This is about 
+Coupang’s current business model demands that it places the burden of quality assurance on its vendors. Although coupang has been able to leverage this to offer its users  extremely fast and affordable delivery, the quality of such products could certainly be better. 
 
-## Features
+### Goal
+We propose leveraging Coupang’s vast review data on product reviews in addition to  recent AI technologies to implement a Vendor evaluation pipeline and tool.
 
-- Sentimental Analysis
-- Text-to-SQL
-- LLM-RAG
+## Technologies
+- LLM model gpt-3.5-turbo
+- SinglestoreDB vector database
+- python3.8+
+- Natural Language Processing (NLP)
 - Responsive Design <Html, javascript, css> 
-
-## Installation
 
 ### Prerequisites
 
@@ -30,7 +31,7 @@ In other to start you'd need to install the following packages.
 - SinglestoreDB 
 - python3.8+
 
-### Steps
+### installation
 
 SingleStoreDB installation on Linux (Centos)
 
@@ -47,4 +48,16 @@ cd text-summarization-LLM-RAG
 
 # Install the dependencies
 python -m pip install -r requirements.txt
+
+## Features
+
+- Review sentiment analysis
+  This feature processes product reviews and determines the overall sentiment (positive, negative, or neutral) expressed by customers.
+
+- LLM based on Review summarization
+  This uses text to sql technique to query from the database and makes a summarization with RAG
+
+- Vendor evaluation tool
+  This tool aggregates the sentiment analysis and  review summarisation across vendor reeviews to evaluate them
+
 
